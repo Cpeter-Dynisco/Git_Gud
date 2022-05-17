@@ -1,2 +1,4 @@
 # Git_Gud
-A superfluous repository designed for me to practice how to and not to use git. The main project within is a simple Higher/lower guessing game to practice both Git and C#. 
+Changes that need to be made: 
+The program has some error-proofing, but not enough. It will let you put in an upper bound that is lower than the lower bound, and then break as it tries to use these bounds later on. 
+Comment, comment, comment!
