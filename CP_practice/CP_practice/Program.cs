@@ -6,16 +6,17 @@ namespace CP_practice
     {
         static void Main(string[] args)
         {
+            //Intro
             Console.WriteLine("Let's Play Higher or lower!");
             Console.WriteLine("Please set Lower bound");
-            string Val = Console.ReadLine();
-            if (!int.TryParse(Val, out int Low_Bound)) {
-                Console.WriteLine("Error! Please input a number");
+            string Val = Console.ReadLine(); //Read lower bound from console, as string
+            if (!int.TryParse(Val, out int Low_Bound)) {//try to convert string to number
+                Console.WriteLine("Error! Please input a number");//if string is invalid, throw this error
             }
             Console.WriteLine("Please set Upper bound");
-            Val = Console.ReadLine();
+            Val = Console.ReadLine(); //Same procedure as lower bound
             if (!int.TryParse(Val, out int Hi_Bound)) { 
-                Console.WriteLine("Error! Please input a number");
+                Console.WriteLine("Error! Please input a number"); //currently, code does not check that the upper bound is larger than the lower bound. 
             }
             Random rnd = new Random();
             int guess = Low_Bound;
