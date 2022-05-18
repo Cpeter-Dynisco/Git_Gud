@@ -6,8 +6,10 @@ namespace CP_practice
     {
         static void Main(string[] args)
         {
+            //making a few random edits
             Console.WriteLine("Let's Play Higher or lower!");
             Console.WriteLine("Please set Lower bound");
+            //read in players guidelines
             string Val = Console.ReadLine();
             if (!int.TryParse(Val, out int Low_Bound)) {
                 Console.WriteLine("Error! Please input a number");
@@ -23,7 +25,7 @@ namespace CP_practice
             int temp_hi = Hi_Bound;
             bool found = false;
             Console.WriteLine("Pick a number between " + Low_Bound + " and " + Hi_Bound + " and I will try to guess it! type h if your number is higher, l if it's lower, and o if I am correct. Press enter to start.");
-            while (!found){
+            while (!found){ //game runs in this loop. foudn terminates it once game is won
                 guess = rnd.Next(temp_lo+1, temp_hi);
                 Console.Write(guess);
                 String feed = Console.ReadLine();
