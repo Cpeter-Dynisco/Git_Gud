@@ -1,2 +1,2 @@
 # Git_Gud
-My higher/lower game is now fully commented
+Guessing range now correctly responds to incorrect value entered. 

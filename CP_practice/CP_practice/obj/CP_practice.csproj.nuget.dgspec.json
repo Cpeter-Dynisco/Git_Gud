@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cpeter\\source\\repos\\Git_Gud\\CP_practice\\CP_practice\\CP_practice.csproj": {}
+    "C:\\Users\\cpeter\\OneDrive - dynisco.com\\Documents\\Reconnection\\Git_Gud\\CP_practice\\CP_practice\\CP_practice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cpeter\\source\\repos\\Git_Gud\\CP_practice\\CP_practice\\CP_practice.csproj": {
+    "C:\\Users\\cpeter\\OneDrive - dynisco.com\\Documents\\Reconnection\\Git_Gud\\CP_practice\\CP_practice\\CP_practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cpeter\\source\\repos\\Git_Gud\\CP_practice\\CP_practice\\CP_practice.csproj",
+        "projectUniqueName": "C:\\Users\\cpeter\\OneDrive - dynisco.com\\Documents\\Reconnection\\Git_Gud\\CP_practice\\CP_practice\\CP_practice.csproj",
         "projectName": "CP_practice",
-        "projectPath": "C:\\Users\\cpeter\\source\\repos\\Git_Gud\\CP_practice\\CP_practice\\CP_practice.csproj",
+        "projectPath": "C:\\Users\\cpeter\\OneDrive - dynisco.com\\Documents\\Reconnection\\Git_Gud\\CP_practice\\CP_practice\\CP_practice.csproj",
         "packagesPath": "C:\\Users\\cpeter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cpeter\\source\\repos\\Git_Gud\\CP_practice\\CP_practice\\obj\\",
+        "outputPath": "C:\\Users\\cpeter\\OneDrive - dynisco.com\\Documents\\Reconnection\\Git_Gud\\CP_practice\\CP_practice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cpeter\\AppData\\Roaming\\NuGet\\NuGet.Config",
