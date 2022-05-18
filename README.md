@@ -1,2 +1,2 @@
 # Git_Gud
-If you're reading this, that means I re-established connection with Github. Yay!
+My higher/lower game is now fully commented

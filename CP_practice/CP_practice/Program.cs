@@ -6,19 +6,20 @@ namespace CP_practice
     {
         static void Main(string[] args)
         {
-            //making a few random edits
+            //Text displays on startup
             Console.WriteLine("Let's Play Higher or lower!");
             Console.WriteLine("Please set Lower bound");
             //read in players guidelines
             string Val = Console.ReadLine();
             if (!int.TryParse(Val, out int Low_Bound)) {
-                Console.WriteLine("Error! Please input a number");
-            }
-            Console.WriteLine("Please set Upper bound");
+                Console.WriteLine("Error! Please input a number");//prevents breakage if player does not input a number properly
+            }//needs loop so that number is guaranteed entered properly
+            Console.WriteLine("Please set Upper bound"); //see lower bound
             Val = Console.ReadLine();
             if (!int.TryParse(Val, out int Hi_Bound)) { 
                 Console.WriteLine("Error! Please input a number");
             }
+            //initialize various important values
             Random rnd = new Random();
             int guess = Low_Bound;
             int temp_lo = Low_Bound;
@@ -26,14 +27,14 @@ namespace CP_practice
             bool found = false;
             Console.WriteLine("Pick a number between " + Low_Bound + " and " + Hi_Bound + " and I will try to guess it! type h if your number is higher, l if it's lower, and o if I am correct. Press enter to start.");
             while (!found){ //game runs in this loop. foudn terminates it once game is won
-                guess = rnd.Next(temp_lo+1, temp_hi);
-                Console.Write(guess);
-                String feed = Console.ReadLine();
+                guess = rnd.Next(temp_lo+1, temp_hi); //generate random guess in current range
+                Console.Write(guess); 
+                String feed = Console.ReadLine(); //read player feedback. "h" means higher, "l" means lower, "o" means correct.
                 if(feed.Equals("h")){
-                    temp_lo = guess;
+                    temp_lo = guess; //tighten guess range to only be numbers higher than last guess
                 }
                 else if(feed.Equals("l")){
-                    temp_hi = guess;
+                    temp_hi = guess; //tighten guess range to only be numbers lower than last guess
                 }
                else if (feed.Equals("o")){
                     found = true;
